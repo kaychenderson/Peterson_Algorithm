@@ -2,8 +2,7 @@
 <p align="center">
     <a href="#tech">Tecnologias</a> •
     <a href="#about">Sobre o Algoritmo</a> •
-    <a href="#complexity">Complexidade</a> •
-    <a href="#colab">Contribuidores</a> •
+    <a href="#colab">Contribuidores</a>
 </p>
 
 <div>
