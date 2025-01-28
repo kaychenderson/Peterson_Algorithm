@@ -18,7 +18,6 @@ Este projeto implementa uma solução clássica para o problema de exclusão mú
 O código utiliza variáveis compartilhadas como flag e turn para garantir que apenas um processo acesse a região crítica de cada vez. O exemplo mostrado envolve dois processos que simulam atividades críticas e não críticas, ilustrando um conceito fundamental da teoria de concorrência e sincronização.
 
 <h2 id="#features" style="font-weight: bold; font-size: 2rem">⚙ Funcionalidades</h2>
-
 <h2> 🟢 Processo 0: </h2>
 Região Crítica: O Processo 0 executa uma tarefa crítica (simulada com uma mensagem no console). <br>
 Região Não Crítica: Após finalizar a região crítica, o Processo 0 realiza uma tarefa não crítica.
