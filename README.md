@@ -1,8 +1,8 @@
 <h1 align="center" style="font-weight: bold;"> 🔐 Algoritmo de Peterson 💻</h1>
 <p align="center">
-    <a href="#tech">Tecnologias</a> •
     <a href="#about">Sobre o Algoritmo</a> •
     <a href="#features">Funcionalidades</a> •
+    <a href="#install">Instação</a> •
     <a href="#usage">Como Usar</a> •
     <a href="#code">Estrutura do Código</a> •
     <a href="#colab">Contribuidores</a>
