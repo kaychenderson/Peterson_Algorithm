@@ -8,9 +8,9 @@
 </p>
 
 ### PEX0093 - Sistemas Operacionais
-###### Professor: [Reudismam Rolim](https://github.com/reudismam)
+##### Professor: [Reudismam Rolim](https://github.com/reudismam)
 
-###### Discrentes: Amanda Aparecida, Amanda Santiago, Joana Larissa e Kayc Henderson
+##### Discrentes: Amanda Aparecida, Amanda Santiago, Joana Larissa e Kayc Henderson
 
 #### Bacharelado Interdisciplinar em Tecnologia da Informação - UFERSA
 
