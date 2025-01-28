@@ -4,13 +4,13 @@
     <a href="#features">Funcionalidades</a> •
     <a href="#install">Instação</a> •
     <a href="#usage">Como Usar</a> •
-    <a href="#code">Estrutura do Código</a> •
+    <a href="#code">Estrutura do Código</a>
 </p>
 
 ### PEX0093 - Sistemas Operacionais
 ##### Professor: [Reudismam Rolim](https://github.com/reudismam)
 
-##### Discrentes: Amanda Aparecida, Amanda Santiago, Joana Larissa e Kayc Henderson
+##### Discrentes: Amanda Gonçalves, Amanda Santiago, Joana Larissa e Kayc Henderson
 
 #### Bacharelado Interdisciplinar em Tecnologia da Informação - UFERSA
 
