@@ -97,34 +97,3 @@ Processo 1 está na região crítica.
 Processo 0 está na região NÃO crítica.
 Processo 1 está na região NÃO crítica.
 ```
-
-<h2 id="colab" style="font-weight: bold; font-size: 2rem">Contribuidores</h2>
- 
-  <table align="center">
-    <tr>
-      <td align="center">
-        <a href="#">
-          <img src="https://avatars.githubusercontent.com/u/146909378?v=4" width="100px;" alt="Foto de Perfil 1"/><br>
-          <sub>
-            <a href="https://github.com/kaychenderson"><b>Kayc Henderson</b></a>
-          </sub>
-        </a>
-      </td>
-          </sub>
-        </a>
-      </td>
-      <td align="center">
-        <a href="#">
-        </a>
-      </td>
-      <td align="center">
-        <a href="#">
-          <img src="https://avatars.githubusercontent.com/u/97909025?v=4" width="100px;" alt="Foto de Perfil 2"/><br>
-            <sub>
-              <a href="https://github.com/JoanaLOliveira"><b>Joana Larissa</b></a>
-            </sub>
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
