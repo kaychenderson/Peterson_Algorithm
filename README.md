@@ -8,6 +8,11 @@
     <a href="#colab">Contribuidores</a>
 </p>
 
+### PEX0093 - Sistemas Operacionais
+###### Professora: [Reudismam Rolim](https://github.com/reudismam)
+
+#### Bacharelado Interdisciplinar em Tecnologia da Informação - UFERSA
+
 <h2 id="tech" style="font-weight: bold; font-size: 2rem">Tecnologia Utilizada</h2> 
 <img align="center" alt="python" src="https://img.shields.io/badge/Python-FFFFFF?style=for-the-badge&logo=python&logoColor=black"/>
 
