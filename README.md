@@ -22,7 +22,8 @@ Este projeto implementa uma solução clássica para o problema de exclusão mú
 
 O código utiliza variáveis compartilhadas como flag e turn para garantir que apenas um processo acesse a região crítica de cada vez. O exemplo mostrado envolve dois processos que simulam atividades críticas e não críticas, ilustrando um conceito fundamental da teoria de concorrência e sincronização.
 
-<h2 id="#features" style="font-weight: bold; font-size: 2rem">⚙ Funcionalidades</h2>
+<h2 id="features" style="font-weight: bold; font-size: 2rem">⚙ Funcionalidades</h2> 
+
 <h2> 🟢 Processo 0: </h2>
 Região Crítica: O Processo 0 executa uma tarefa crítica (simulada com uma mensagem no console). <br>
 Região Não Crítica: Após finalizar a região crítica, o Processo 0 realiza uma tarefa não crítica.
@@ -95,3 +96,34 @@ Processo 1 está na região crítica.
 Processo 0 está na região NÃO crítica.
 Processo 1 está na região NÃO crítica.
 ```
+
+<h2 id="colab" style="font-weight: bold; font-size: 2rem">Contribuidores</h2>
+ 
+  <table align="center">
+    <tr>
+      <td align="center">
+        <a href="#">
+          <img src="https://avatars.githubusercontent.com/u/146909378?v=4" width="100px;" alt="Foto de Perfil 1"/><br>
+          <sub>
+            <a href="https://github.com/kaychenderson"><b>Kayc Henderson</b></a>
+          </sub>
+        </a>
+      </td>
+          </sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="#">
+        </a>
+      </td>
+      <td align="center">
+        <a href="#">
+          <img src="https://avatars.githubusercontent.com/u/97909025?v=4" width="100px;" alt="Foto de Perfil 2"/><br>
+            <sub>
+              <a href="https://github.com/JoanaLOliveira"><b>Joana Larissa</b></a>
+            </sub>
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
