@@ -9,7 +9,7 @@
 </p>
 
 ### PEX0093 - Sistemas Operacionais
-###### Professora: [Reudismam Rolim](https://github.com/reudismam)
+###### Professor: [Reudismam Rolim](https://github.com/reudismam)
 
 #### Bacharelado Interdisciplinar em Tecnologia da Informação - UFERSA
 
