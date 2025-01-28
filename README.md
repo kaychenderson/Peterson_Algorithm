@@ -17,7 +17,7 @@ Este projeto implementa uma solução clássica para o problema de exclusão mú
 
 O código utiliza variáveis compartilhadas como flag e turn para garantir que apenas um processo acesse a região crítica de cada vez. O exemplo mostrado envolve dois processos que simulam atividades críticas e não críticas, ilustrando um conceito fundamental da teoria de concorrência e sincronização.
 
-<h2 id="about" style="font-weight: bold; font-size: 2rem">⚙ Funcionalidades</h2>
+<h2 id="#features" style="font-weight: bold; font-size: 2rem">⚙ Funcionalidades</h2>
 
 <h2> 🟢 Processo 0: </h2>
 Região Crítica: O Processo 0 executa uma tarefa crítica (simulada com uma mensagem no console). <br>
@@ -29,7 +29,7 @@ Região Não Crítica: O Processo 1 realiza uma tarefa não crítica após compl
 <br><br>
 Ambos os processos competem pela região crítica de forma sincronizada, utilizando o algoritmo de Peterson para garantir que não haja conflito entre eles.
 
-<h2 id="about" style="font-weight: bold; font-size: 2rem">📦 Instalação</h2>
+<h2 id="install" style="font-weight: bold; font-size: 2rem">📦 Instalação</h2>
 Para rodar o código em sua máquina, siga os passos abaixo:
 
 1. Clone este repositório:
@@ -45,27 +45,45 @@ Basta executar o arquivo principal no terminal:
 ```bash
 python peterson.py
 ```
-<h2 id="about" style="font-weight: bold; font-size: 2rem">💡 Como Usar</h2>
+<h2 id="usage" style="font-weight: bold; font-size: 2rem">💡 Como Usar</h2>
 O código já está pronto para execução e irá iniciar automaticamente dois processos que competem pelas regiões críticas.
 
 Ao rodar o script, você verá as mensagens no console indicarem qual processo está na região crítica e qual está na região não crítica.
 
-<h2 id="about" style="font-weight: bold; font-size: 2rem">🛠 Estrutura do Código</h2>
+<h2 id="code" style="font-weight: bold; font-size: 2rem">🛠 Estrutura do Código</h2>
 O código está dividido da seguinte forma:
 
 ## peterson.py: 
 Arquivo principal que implementa o Algoritmo de Peterson com duas threads representando os dois processos que competem pela região crítica. 
 ## Variáveis Compartilhadas:
-### flag: Uma lista com duas posições para controlar se o processo deseja entrar na região crítica.
-### turn: Variável que indica qual processo tem a vez de executar a região crítica.
-## Funções:
-### secao_critica(): Simula a execução de uma tarefa na região crítica.
-### secao_nao_critica(): Simula a execução de uma tarefa na região não crítica.
-## Threads:
-### process_0(): Representa o primeiro processo que executa a região crítica e não crítica.
-### process_1(): Representa o segundo processo que executa a região crítica e não crítica.
+- O algoritmo de Peterson utiliza duas variáveis compartilhadas para garantir a exclusão mútua e a comunicação entre os dois processos:
 
-🔍 Exemplo de Execução
+```flag```: Uma lista de dois elementos (flag[0] e flag[1]), onde cada posição indica se o processo correspondente deseja ou não entrar na região crítica.
+
+```flag[0]```: indica se o primeiro processo (processo 0) deseja entrar na região crítica. <br>
+```flag[1]```: indica se o segundo processo (processo 1) deseja entrar na região crítica.
+
+```turn```: Uma variável de controle que determina qual processo tem a vez de executar a região crítica. O valor de turn é alternado entre 0 e 1 para indicar o próximo processo que deve entrar na região crítica, garantindo que o outro processo espere sua vez.
+
+## Funções:
+- O código define as seguintes funções que simulam a execução dos processos e as suas interações com a região crítica e não crítica:
+
+### secao_critica(): 
+Esta função simula a execução de uma tarefa na região crítica. Quando um processo entra na região crítica, ele executa esse bloco de código, indicando que está fazendo algo exclusivo que não pode ser interrompido.
+
+### secao_nao_critica(): 
+Esta função simula a execução de uma tarefa na região não crítica. Aqui, o processo pode executar outras ações que não requerem acesso exclusivo e podem ser realizadas sem conflitos.
+
+## Threads:
+- O algoritmo implementa duas threads para representar os dois processos concorrentes que competem pela região crítica. Cada thread executa um processo que alterna entre a região crítica e a região não crítica:
+
+### process_0(): 
+Representa o primeiro processo (processo 0) no sistema. Este processo tenta entrar na região crítica, mas só o fará se for a sua vez de acordo com a variável turn e a sua intenção, indicada pela lista flag.
+
+### process_1(): 
+Representa o segundo processo (processo 1), com o mesmo comportamento do processo 0. Ele também verifica a variável turn e a lista flag para garantir que não haja acesso simultâneo à região crítica.
+
+## 🔍 Exemplo de Execução
 Ao executar o código, a saída no console será algo como:
 ```bash
 Processo 0 está na região crítica.
