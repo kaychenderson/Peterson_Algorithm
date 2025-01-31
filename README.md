@@ -93,7 +93,7 @@ Representa o segundo processo (processo 1), com o mesmo comportamento do process
 Ao executar o código, a saída no console será algo como:
 ```bash
 Processo 0 está na região crítica.
-Processo 1 está na região crítica.
 Processo 0 está na região NÃO crítica.
+Processo 1 está na região crítica.
 Processo 1 está na região NÃO crítica.
 ```
